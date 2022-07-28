@@ -1,0 +1,9 @@
+import time
+tinicial = -1
+tfinal = 10
+print('*INICIANDO CONTEGEM REGRESSIVA*')
+for i in range(tfinal,tinicial, -1):
+    print(i)
+    time.sleep(1)
+    if i==0:
+        print('*BUUUUUUUUUUMMMMMMMMM!!!!!!*')
